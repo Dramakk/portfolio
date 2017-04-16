@@ -5,7 +5,7 @@ function Dawid(imie, lata){
   this.old = lata;
   this.nerd = "Tak";
 }
-var dawid = new Dawid("Dawid", 18);
+var dawid = new Dawid("Dawid", 19);
 a = document.getElementById('d');
 a.textContent = Math.floor((Math.random() * 150) + 1)
 //var t = ((dawid.old)>=(16));
