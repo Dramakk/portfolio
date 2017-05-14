@@ -1,0 +1,29 @@
+body {
+  width: 100%;
+  background-color: #ffcccc;
+  font-family: monospace;
+}
+h1 {
+  font-size: 60px;
+  font-family: "Pacifico", cursive;
+  padding-top: 20px;
+  margin-bottom: 40px;
+  /*padding-bottom: 20px;*/
+}
+.navbar{
+  background-color: red;
+}
+.accordion-panel{
+  margin: 5px 5px 5px 5px;
+  display: none;
+}
+ul{
+  list-style: none;
+}
+li{
+  padding: 5px 5px 5px 5px;
+}
+button{
+  font-family: "Pacifico", cursive;
+  background-color: #80bfff;
+}
