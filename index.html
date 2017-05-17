@@ -5,6 +5,7 @@
 		<link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+		<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 		<meta charset="UTF-8">
@@ -23,7 +24,7 @@
 			</div>
 	    <div class="row">
 	  		<ul class="accordion col-md-12">
-	        <li class="p">
+	        <li>
 	          <button class="accord-control btn btn-block btn-lg">O mnie</button>
 	          <div class="accordion-panel">Tak</div>
 	        </li>
@@ -32,8 +33,21 @@
 	          <div class="accordion-panel">Tak</div>
 	        </li>
 	        <li>
-	          <button class="accord-control btn btn-block btn-lg">Galeria</button>
-	          <div class="accordion-panel">Tak</div>
+	          <button class="accord-control btn btn-block btn-lg" id="galeria">Galeria</button>
+	         		<div class="accordion-panel">
+								<div class="row">
+									<div class="col-md-12">
+										<div class="w3-content w3-display-container ">
+										  <img class="mySlides img-responsive" src="img/krolik.jpg" style="width:100%" alt="Zdjęcie przedstawia wypchanego królika z materiału.">
+										  <img class="mySlides img-responsive" src="img/serduszka.jpg" style="width:100%" alt="Zdjęcie przedstawia kilka wypchanych, materiałowych serduszek">
+										  <img class="mySlides img-responsive" src="img/wianek1.jpg" style="width:100%" alt="Zdjęcie przedstawia materiałowy wianek szyty ręcznie">
+										  <img class="mySlides img-responsive" src="img/wianek2.jpg" style="width:100%" alt="Zdjęcie przedstawia materiałowy wianek szyty ręcznie">
+										  <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+										  <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+										</div>
+									</div>
+								</div>
+							</div>
 	        </li>
 	      </ul>
 	    </div>
