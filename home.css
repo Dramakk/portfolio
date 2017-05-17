@@ -10,11 +10,8 @@ h1 {
   margin-bottom: 40px;
   /*padding-bottom: 20px;*/
 }
-.navbar{
-  background-color: red;
-}
 .accordion-panel{
-  margin: 5px 5px 5px 5px;
+  margin: 5px 5px -5px 5px;
   display: none;
 }
 ul{
@@ -26,4 +23,11 @@ li{
 button{
   font-family: "Pacifico", cursive;
   background-color: #80bfff;
+}
+#galeria{
+  margin-bottom: 10px;
+}
+.w3-display-container{
+  max-width: 480px;
+  max-height: 640px;
 }
