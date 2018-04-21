@@ -1,1 +1,1 @@
-It's testing page. It's going to be my portfolio in the future.
+Just some simple responsive page made for personal purposes.
